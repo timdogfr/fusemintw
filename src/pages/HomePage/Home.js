@@ -249,7 +249,7 @@ function Home() {
           <s.SpacerMedium />
           <s.FlexContainer fd={"row"} ai={"center"} jc={"space-between"}>
             <s.TextTitle>Total</s.TextTitle>
-            <s.TextTitle>{displayCost} MATIC</s.TextTitle>
+            <s.TextTitle>{displayCost} FUSE</s.TextTitle>
           </s.FlexContainer>
           <s.SpacerSmall />
           <s.Line />
