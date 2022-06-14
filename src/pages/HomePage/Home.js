@@ -27,7 +27,7 @@ function Home() {
   const [supply , setTotalSupply] = useState(0);
   const [feedback, setFeedback] = useState("");
   const [mintAmount, setMintAmount] = useState(1);
-  const [displayCost, setDisplayCost] = useState(0.10);
+  const [displayCost, setDisplayCost] = useState(3.00);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -200,7 +200,7 @@ function Home() {
       >
         <s.Mint>
           <s.Image src={"config/images/mint_nft.png"} wid={70} />
-          <s.TextSubTitle size={1.4}>{2500-supply} of 10000 NFT's Available</s.TextSubTitle>
+          <s.TextSubTitle size={1.4}>{2222-supply} of 2222 NFT's Available</s.TextSubTitle>
           <s.SpacerLarge />
           <s.Line />
           <s.SpacerLarge />
