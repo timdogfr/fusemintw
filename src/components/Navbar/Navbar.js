@@ -99,7 +99,7 @@ const Navbar = () => {
     }
 
     const homeLink = () =>{
-      window.location.replace("https://toppemsports.io/")
+      window.location.replace("https://yen-s.vercel.app/")
     }
 
     return (
@@ -116,7 +116,7 @@ const Navbar = () => {
                 </NavItems>
               
                 <NavItems style={{paddingLeft:"20px"}}>
-                  <NavLink onClick={()=> socialMedia("https://discord.com/invite/FaJVjrxT")}>
+                  <NavLink onClick={()=> socialMedia("https://discord.com/invite/TbrhDKGPGT")}>
                     <NavIcon src={"config/images/discord.png"}></NavIcon>
                   </NavLink>
                 </NavItems>
